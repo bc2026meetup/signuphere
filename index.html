@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>B.C.2026</title>
+<meta name="description" content="B.C.2026 — a social meetup where Koreans and internationals connect in Seoul">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Top bar (menu button, top-left) -->
+<header class="topbar">
+  <button id="menuBtn" class="menu-btn" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <a href="#home" class="topbar-logo">B.C.2026</a>
+  <div class="lang-toggle" role="group" aria-label="Language">
+    <a href="index.html" class="lang-btn active">ENG</a>
+    <a href="ko.html" class="lang-btn">KOR</a>
+  </div>
+</header>
+
+<!-- Slide-in tab menu -->
+<nav id="drawer" class="drawer">
+  <div class="drawer-header">
+    <span class="drawer-logo">B.C.2026</span>
+    <button id="closeBtn" class="close-btn" aria-label="Close menu">&times;</button>
+  </div>
+  <ul class="drawer-list">
+    <li><a href="#meetup-night" class="drawer-link">Seoul Meetup Night</a></li>
+    <li><a href="#party-night" class="drawer-link">Seoul Party Night</a></li>
+    <li><a href="#hanriver" class="drawer-link">Han River Meetup</a></li>
+    <li><a href="#gallery" class="drawer-link">Moments</a></li>
+    <li><a href="#apply-links" class="drawer-link drawer-cta">Apply to Join →</a></li>
+  </ul>
+</nav>
+<div id="overlay" class="overlay"></div>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero" style="background-image:url('images/hero.jpg')">
+    <div class="hero-dim"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="line" style="--d:0.05s">Meet people.</span>
+        <span class="line" style="--d:0.2s">Share cultures.</span>
+        <span class="line" style="--d:0.35s">Make friends.</span>
+      </h1>
+      <div class="hero-desc">
+        <p>B.C.2026 is a social meetup where Koreans<br class="br-mobile"> and people from all over the world come together and make new friends.</p>
+        <p>From relaxed language exchange<br class="br-mobile"> to picnics by the Han River and fun nights out.<br> All in English — a space to naturally connect with international friends living in Korea.</p>
+        <p>Locals &amp; Internationals, together! Let's make memories worth keeping. 🌏</p>
+      </div>
+      <div class="hero-links" id="apply-links">
+        <a href="https://forms.gle/EePx3UZSkGvwUgdA6" target="_blank" rel="noopener noreferrer" class="link-btn">
+          <span class="link-btn-date">9/3 (Thu)</span>
+          <span class="link-btn-title">SEOUL MEETUP NIGHT · APPLY 🔥</span>
+        </a>
+        <a href="https://forms.gle/7hXMogLVnNcoLjP86" target="_blank" rel="noopener noreferrer" class="link-btn">
+          <span class="link-btn-date">9/11 (Fri)</span>
+          <span class="link-btn-title">SEOUL PARTY NIGHT · APPLY 🍸</span>
+        </a>
+        <a href="https://meetup.com/b-c-2026-culture-language-exchange?member_id=480449422" target="_blank" rel="noopener noreferrer" class="link-btn">
+          <span class="link-btn-title">Apply via Meetup App 🧑‍💻</span>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-cue">SCROLL</div>
+  </section>
+
+  <!-- Seoul Meetup Night -->
+  <section id="meetup-night" class="section reverse reveal-parent">
+    <div class="section-media reveal" style="background-image:url('images/meetup-night.jpg')"></div>
+    <div class="section-body reveal">
+      <p class="section-eyebrow">REGULAR MEETUP</p>
+      <h2>What is Seoul Meetup Night?</h2>
+      <p class="section-text">
+        B.C.2026's signature meetup, held on a regular basis.<br><br>
+        We keep the ratio of Korean and international participants at roughly 5:5, so you can chat freely and naturally connect with people from all kinds of cultures.
+      </p>
+      <a href="https://forms.gle/EePx3UZSkGvwUgdA6" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Apply Now</a>
+    </div>
+  </section>
+
+  <!-- Seoul Party Night -->
+  <section id="party-night" class="section reveal-parent">
+    <div class="section-media reveal" style="background-image:url('images/party-night.png')"></div>
+    <div class="section-body reveal">
+      <p class="section-eyebrow">PARTY</p>
+      <h2>What is Seoul Party Night?</h2>
+      <p class="section-text">
+        A party-style meetup at a rooftop standing bar.<br><br>
+        With an open night view and great music setting the mood,<br>
+        it's a slightly more special night to relax, have fun, and get to know new people.
+      </p>
+      <a href="https://forms.gle/7hXMogLVnNcoLjP86" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Apply Now</a>
+    </div>
+  </section>
+
+  <!-- Han River Meetup -->
+  <section id="hanriver" class="section reverse reveal-parent">
+    <div class="section-media reveal" style="background-image:url('images/hanriver.jpg')"></div>
+    <div class="section-body reveal">
+      <p class="section-eyebrow">OUTDOOR</p>
+      <h2>What is Han River Meetup?</h2>
+      <p class="section-text">
+        An outdoor social meetup by the Han River.<br><br>
+        With an open river view and a cool breeze, it's a relaxed way to hang out with new people.<br><br>
+        🍂 We're taking a short break because of the summer heat. See you back at the river in October, once it cools down!
+      </p>
+      <a href="https://www.instagram.com/b.c.2026_?igsi=YWI5ZjhhbWkwZWV6&amp;utm_source=qr" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Follow us on Instagram for updates</a>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="gallery-section">
+    <p class="section-eyebrow center">MOMENTS</p>
+    <h2 class="center">Our Moments So Far</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal" style="background-image:url('images/gallery-1.jpg')"></div>
+      <div class="gallery-item reveal" style="background-image:url('images/gallery-2.jpg')"></div>
+      <div class="gallery-item reveal" style="background-image:url('images/gallery-3.jpg')"></div>
+      <div class="gallery-item reveal" style="background-image:url('images/gallery-4.jpg')"></div>
+      <div class="gallery-item reveal" style="background-image:url('images/gallery-5.jpg')"></div>
+      <div class="gallery-item reveal" style="background-image:url('images/gallery-6.jpg')"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-social">
+      <a href="https://www.instagram.com/b.c.2026_?igsi=YWI5ZjhhbWkwZWV6&amp;utm_source=qr" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+        <svg viewBox="0 0 48 48">
+          <defs>
+            <radialGradient id="igGrad" cx="30%" cy="107%" r="150%">
+              <stop offset="0%" stop-color="#fdf497"/>
+              <stop offset="5%" stop-color="#fdf497"/>
+              <stop offset="45%" stop-color="#fd5949"/>
+              <stop offset="60%" stop-color="#d6249f"/>
+              <stop offset="90%" stop-color="#285AEB"/>
+            </radialGradient>
+          </defs>
+          <rect x="2" y="2" width="44" height="44" rx="13" fill="url(#igGrad)"/>
+          <rect x="13" y="13" width="22" height="22" rx="7" fill="none" stroke="#fff" stroke-width="2.6"/>
+          <circle cx="24" cy="24" r="6.2" fill="none" stroke="#fff" stroke-width="2.6"/>
+          <circle cx="32.8" cy="15.3" r="1.6" fill="#fff"/>
+        </svg>
+      </a>
+      <a href="https://open.kakao.com/o/gv8ZTzni" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="KakaoTalk Open Chat">
+        <svg viewBox="0 0 48 48">
+          <rect x="2" y="2" width="44" height="44" rx="13" fill="#FEE500"/>
+          <path d="M24 12c-7.7 0-14 5-14 11.2 0 3.9 2.5 7.4 6.4 9.4-.3 1-1 3.7-1.1 4.3-.2.7.3.7.6.5.3-.2 4.1-2.8 5.8-3.9.7.1 1.5.2 2.3.2 7.7 0 14-5 14-11.2S31.7 12 24 12z" fill="#391B1B"/>
+        </svg>
+      </a>
+      <a href="https://www.tiktok.com/@b.c.2026?_r=1&amp;_t=ZS-99KjxYoaCn6" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="TikTok">
+        <svg viewBox="0 0 48 48">
+          <rect x="2" y="2" width="44" height="44" rx="13" fill="#010101"/>
+          <path d="M29 10.5c.6 3.6 2.9 6.2 6.7 6.5v4.6c-2.4 0-4.6-.7-6.6-2v9.6c0 5.4-4.4 9.3-9.4 9.3-5.7 0-9.9-4.6-9.9-9.8 0-5.6 5-10.1 11-9.4v4.7c-.5-.1-1-.2-1.6-.2-2.8 0-5 2.2-5 4.9 0 2.8 2.2 5 5 5 3 0 5.3-2.3 5.3-5.5V10.5H29z" fill="#25F4EE"/>
+          <path d="M28 9.5c.6 3.6 2.9 6.2 6.7 6.5v4.6c-2.4 0-4.6-.7-6.6-2v9.6c0 5.4-4.4 9.3-9.4 9.3-5.7 0-9.9-4.6-9.9-9.8 0-5.6 5-10.1 11-9.4v4.7c-.5-.1-1-.2-1.6-.2-2.8 0-5 2.2-5 4.9 0 2.8 2.2 5 5 5 3 0 5.3-2.3 5.3-5.5V9.5H28z" fill="#FE2C55"/>
+          <path d="M28.5 10c.6 3.6 2.9 6.2 6.7 6.5v4.6c-2.4 0-4.6-.7-6.6-2v9.6c0 5.4-4.4 9.3-9.4 9.3-5.7 0-9.9-4.6-9.9-9.8 0-5.6 5-10.1 11-9.4v4.7c-.5-.1-1-.2-1.6-.2-2.8 0-5 2.2-5 4.9 0 2.8 2.2 5 5 5 3 0 5.3-2.3 5.3-5.5V10H28.5z" fill="#fff"/>
+        </svg>
+      </a>
+    </div>
+    <p class="footer-brand">B.C.2026 <span class="footer-dot">·</span> Seoul, Korea</p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
