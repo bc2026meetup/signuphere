@@ -208,7 +208,7 @@ img { max-width: 100%; display: block; }
   background-size: cover;
   background-position: center;
   background-color: #F0EEE6;
-  padding: 52px 24px 36px;
+  padding: 64px 24px 36px;
 }
 .hero-dim {
   position: absolute; inset: 0;
