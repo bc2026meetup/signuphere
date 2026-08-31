@@ -208,7 +208,7 @@ img { max-width: 100%; display: block; }
   background-size: cover;
   background-position: center;
   background-color: #F0EEE6;
-  padding: 72px 24px 36px;
+  padding: 52px 24px 36px;
 }
 .hero-dim {
   position: absolute; inset: 0;
@@ -225,7 +225,7 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-title {
-  font-size: clamp(24px, 7vw, 46px);
+  font-size: clamp(32px, 9vw, 56px);
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 12px;
