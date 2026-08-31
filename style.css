@@ -328,8 +328,7 @@ img { max-width: 100%; display: block; }
   border-top: 1px solid var(--line);
 }
 .section-media {
-  height: 46vh;
-  min-height: 260px;
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-color: #F0EEE6;
@@ -443,12 +442,11 @@ img { max-width: 100%; display: block; }
 @media (min-width: 760px) {
   .section {
     flex-direction: row;
-    align-items: stretch;
+    align-items: center;
   }
   .section.reverse { flex-direction: row-reverse; }
   .section-media, .section-body {
     flex: 1 1 50%;
-    height: auto;
   }
   .section-body {
     display: flex;
