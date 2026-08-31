@@ -1,0 +1,8 @@
+{
+  "name": "bc2026-site",
+  "private": true,
+  "description": "B.C.2026 static site (no build step — plain HTML/CSS/JS)",
+  "scripts": {
+    "dev": "npx --yes serve . -l 3000"
+  }
+}

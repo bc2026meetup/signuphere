@@ -28,8 +28,28 @@
 - `gallery-1.jpg` ~ `gallery-6.jpg` — 스크롤하면 나타나는 갤러리 사진 6장
 
 ## 3. 로컬에서 미리보기
-`index.html` 파일을 더블클릭하면 브라우저에서 바로 열립니다.
+가장 간단한 방법: `index.html` 파일을 더블클릭하면 브라우저에서 바로 열립니다.
 
-## 4. 온라인에 올리기 (무료)
-- [Netlify Drop](https://app.netlify.com/drop) 에 이 폴더를 통째로 드래그 앤 드롭하면 몇 초 만에 실제 주소가 생깁니다.
-- 또는 GitHub 저장소를 만들고 GitHub Pages를 켜도 됩니다.
+로컬 서버로 띄워서 보고 싶으면 (모바일 기기에서 같은 와이파이로 접속해 테스트할 때 유용):
+```
+npm run dev
+```
+Node.js만 설치되어 있으면 별도 설치 없이 `npx`로 `serve` 패키지를 그때그때 받아서 `http://localhost:3000` 에 띄워줍니다. Node가 없다면 파이썬으로도 됩니다:
+```
+python -m http.server 3000
+```
+
+## 4. 배포 (GitHub Pages)
+이 저장소는 이미 `main` 브랜치가 GitHub Pages에 연결되어 있어서, `main`에 push하면 몇 분 안에 실제 사이트에 자동 반영됩니다.
+
+**배포 링크**: https://sopyuna1.github.io/bc2026-site/
+
+작업 흐름 추천:
+1. 로컬에서 파일 수정 (`index.html`을 더블클릭하거나 `npm run dev`로 확인)
+2. 눈으로 확인 후 이상 없으면 커밋 & `main`에 push
+3. GitHub Pages가 자동으로 최신 버전을 반영
+
+한 번에 여러 가지를 크게 바꿀 때는 `main`에 바로 커밋하기보다 별도 브랜치(예: `git checkout -b update-photos`)에서 작업하고, 로컬에서 다 확인한 뒤 `main`에 merge하는 걸 추천해요. 지금처럼 작은 텍스트/링크 수정 정도는 `main`에 바로 커밋해도 충분합니다.
+
+## 5. 다른 무료 배포 옵션
+- [Netlify Drop](https://app.netlify.com/drop) 에 이 폴더를 통째로 드래그 앤 드롭하면 몇 초 만에 실제 주소가 생깁니다 (계정 없이 익명 배포).

@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Node (only relevant if you ever run `npm run dev`)
+node_modules/
+
+# Local env / secrets (none needed for this static site, but reserved)
+.env
+.env.local
