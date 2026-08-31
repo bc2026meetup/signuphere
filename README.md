@@ -25,7 +25,7 @@
 - `meetup-night.jpg` — "Seoul Meetup Night" 섹션 사진 (완료)
 - `party-night.png` — "Seoul Party Night" 섹션 사진 (완료)
 - `hanriver.jpg` — "Han River Meetup" 섹션 사진 (완료)
-- `gallery-1.jpg` ~ `gallery-6.jpg` — 스크롤하면 나타나는 갤러리 사진 6장
+- `gallery-1.jpg` ~ `gallery-6.jpg` — 스크롤하면 나타나는 갤러리 사진 6장 (완료, masonry 레이아웃이라 사진마다 비율이 달라도 안 잘리고 그대로 보임)
 
 ## 3. 로컬에서 미리보기
 가장 간단한 방법: `index.html` 파일을 더블클릭하면 브라우저에서 바로 열립니다.
