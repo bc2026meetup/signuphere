@@ -208,7 +208,7 @@ img { max-width: 100%; display: block; }
   background-size: cover;
   background-position: center;
   background-color: #F0EEE6;
-  padding: 64px 24px 36px;
+  padding: 56px 24px 36px;
 }
 .hero-dim {
   position: absolute; inset: 0;
@@ -225,10 +225,10 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-title {
-  font-size: clamp(32px, 9vw, 56px);
+  font-size: clamp(38px, 10vw, 64px);
   font-weight: 800;
   line-height: 1.2;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
   color: var(--text);
 }
 .hero-title .line {
@@ -249,7 +249,7 @@ img { max-width: 100%; display: block; }
 .br-desktop { display: none; }
 
 .hero-desc {
-  margin-bottom: 18px;
+  margin-bottom: 28px;
   opacity: 0;
   animation: heroFadeIn 0.6s ease forwards;
   animation-delay: 0.5s;
