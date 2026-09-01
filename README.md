@@ -42,7 +42,7 @@ python -m http.server 3000
 ## 4. 배포 (GitHub Pages)
 이 저장소는 이미 `main` 브랜치가 GitHub Pages에 연결되어 있어서, `main`에 push하면 몇 분 안에 실제 사이트에 자동 반영됩니다.
 
-**배포 링크**: https://bc2026meetup.github.io/bc2026-site/
+**배포 링크**: https://bc2026meetup.github.io/signuphere/
 
 작업 흐름 추천:
 1. 로컬에서 파일 수정 (`index.html`을 더블클릭하거나 `npm run dev`로 확인)

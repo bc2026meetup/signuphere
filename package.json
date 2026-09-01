@@ -1,5 +1,5 @@
 {
-  "name": "bc2026-site",
+  "name": "signuphere",
   "private": true,
   "description": "B.C.2026 static site (no build step — plain HTML/CSS/JS)",
   "scripts": {
