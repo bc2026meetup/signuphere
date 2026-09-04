@@ -11,7 +11,7 @@
 ## 1. 링크 연결 현황
 구글폼/인스타/카톡/틱톡/Meetup 링크는 모두 연결 완료된 상태예요. 나중에 링크가 바뀌면 `index.html`과 `ko.html` 둘 다에서 해당 URL을 Ctrl+F로 찾아 바꿔주세요.
 
-- Seoul Meetup Night 구글폼 — 히어로 "9/3" 버튼 + 섹션 버튼 (총 2곳, 동일 링크)
+- Seoul Meetup Night 구글폼 — 히어로 "9/17" 버튼 + 섹션 버튼 (총 2곳, 동일 링크)
 - Seoul Party Night 구글폼 — 히어로 "9/11" 버튼 + 섹션 버튼 (총 2곳, 동일 링크)
 - Meetup 그룹 페이지 — 히어로 "Apply via Meetup App" 버튼
 - 인스타그램 — Han River "Follow us on Instagram" 버튼 + 푸터 아이콘 (총 2곳, 동일 링크)
